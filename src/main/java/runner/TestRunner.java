@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
 	/*dry run will not run the test case but just check the mapping between step def & feature file.
 	 *  If true only mapping checed test cases not run. The missing step can be identified in console. 
 	 *  Keep it false as then only test cases will run.*/
-	, dryRun = true
+	, dryRun = false
 			
 	/*for multiple scenario options put the tags of tests which need to run. 
 	 * For OR use {"@SmokeTest, @RegressionTest"}

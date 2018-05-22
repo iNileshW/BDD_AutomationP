@@ -1,0 +1,397 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30735138100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login test with invalid details",
+        "description": "",
+        "id": "automation-login-feature;login-test-with-invalid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 149100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1077217400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on automation practice website",
+            "match": {
+              "location": "LoginSteps.user_is_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4423517800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user enters the invalid login credentials",
+            "match": {
+              "location": "LoginSteps.the_user_enters_the_invalid_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1539804100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks on login button",
+            "match": {
+              "location": "LoginSteps.the_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1151186500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user is presented with validation message",
+            "match": {
+              "location": "LoginSteps.the_user_is_presented_with_validation_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12929337800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login test with valid details",
+        "description": "",
+        "id": "automation-login-feature;login-test-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 898353500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on automation practice website",
+            "match": {
+              "location": "LoginSteps.user_is_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3674664900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user enters the valid login details",
+            "match": {
+              "location": "LoginSteps.the_user_enters_the_valid_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2661746200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user clicks on login button",
+            "match": {
+              "location": "LoginSteps.the_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25292900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user is presented with landing page",
+            "match": {
+              "location": "LoginSteps.the_user_is_presented_with_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 20,
+            "value": "#Without Using Examples keyword username \u0026 password"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 11401507000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login test with valid details without using examples",
+        "description": "",
+        "id": "automation-login-feature;login-test-with-valid-details-without-using-examples",
+        "after": [
+          {
+            "result": {
+              "duration": 675747200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on automation practice website",
+            "match": {
+              "location": "LoginSteps.user_is_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3760058900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user enters the valid \"mymail@aol.com\" and \"hello123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mymail@aol.com",
+                  "offset": 27
+                },
+                {
+                  "val": "hello123",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginSteps.the_user_enters_the_valid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2218695700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user clicks on login button",
+            "match": {
+              "location": "LoginSteps.the_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15254500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user is presented with landing page",
+            "match": {
+              "location": "LoginSteps.the_user_is_presented_with_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 44,
+            "value": "# Using DataTable - Not preferred - Used only for 1 row as extra efforts for more rows"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 11573836100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Login test with valid details using examples",
+        "description": "",
+        "id": "automation-login-feature;login-test-with-valid-details-using-examples",
+        "after": [
+          {
+            "result": {
+              "duration": 779069100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User is on automation practice website",
+            "match": {
+              "location": "LoginSteps.user_is_on_automation_practice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4054454300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user enters the valid username and password",
+            "match": {
+              "location": "LoginSteps.The_user_enters_the_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mymail@aol.com",
+                  "hello123"
+                ],
+                "line": 50
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993001400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user clicks on login button",
+            "match": {
+              "location": "LoginSteps.the_user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190266200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "The user is presented with landing page",
+            "match": {
+              "location": "LoginSteps.the_user_is_presented_with_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Login feature",
+    "description": "",
+    "id": "automation-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Admin/eclipse-workspace/BDD_AutomationP/src/main/java/Features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFunctionality"
+      }
+    ]
+  }
+]

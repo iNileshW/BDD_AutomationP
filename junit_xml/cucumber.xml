@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="95.778411">
+    <testcase classname="Automation Login feature" name="Login test with invalid details" time="38.927013">
+        <system-out>
+            <![CDATA[Given User is on automation practice website................................passed
+When The user enters the invalid login credentials..........................passed
+And The user clicks on login button.........................................passed
+Then The user is presented with validation message..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Automation Login feature" name="Login test with valid details" time="20.189433">
+        <system-out>
+            <![CDATA[Given User is on automation practice website................................passed
+When The user enters the valid login details................................passed
+And The user clicks on login button.........................................passed
+Then The user is presented with landing page................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Automation Login feature" name="Login test with valid details without using examples" time="18.071301">
+        <system-out>
+            <![CDATA[Given User is on automation practice website................................passed
+When The user enters the valid "mymail@aol.com" and "hello123"..............passed
+And The user clicks on login button.........................................passed
+Then The user is presented with landing page................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Automation Login feature" name="Login test with valid details using examples" time="18.590664">
+        <system-out>
+            <![CDATA[Given User is on automation practice website................................passed
+When The user enters the valid username and password........................passed
+And The user clicks on login button.........................................passed
+Then The user is presented with landing page................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

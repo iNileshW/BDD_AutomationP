@@ -22,6 +22,7 @@ import org.junit.runner.RunWith;
 	 *  Keep it false as then only test cases will run.*/
 	, dryRun = false
 			
+			
 	/*for multiple scenario options put the tags of tests which need to run. 
 	 * For OR use {"@SmokeTest, @RegressionTest"}
 	 * For AND use ie both {"@SmokeTest","@RegressionTest"}

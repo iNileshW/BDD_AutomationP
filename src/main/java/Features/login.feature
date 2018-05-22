@@ -1,6 +1,7 @@
 @LoginFunctionality
 Feature: Automation Login feature
 
+
 @SmokeTest @RegressionTest 
 #@First is to use the Hooks of before & after first local hook 
 Scenario: Login test with invalid details

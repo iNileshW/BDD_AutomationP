@@ -21,6 +21,7 @@ import org.junit.runner.RunWith;
 	 *  If true only mapping checed test cases not run. The missing step can be identified in console. 
 	 *  Keep it false as then only test cases will run.*/
 	, dryRun = true
+			
 	/*for multiple scenario options put the tags of tests which need to run. 
 	 * For OR use {"@SmokeTest, @RegressionTest"}
 	 * For AND use ie both {"@SmokeTest","@RegressionTest"}

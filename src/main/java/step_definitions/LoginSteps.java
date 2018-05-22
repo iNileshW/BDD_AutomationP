@@ -147,7 +147,6 @@ public void after() {
 	driver.quit();
 }
 
-
 //Local hook
 @Before("@First")
 public void beforefirst () {

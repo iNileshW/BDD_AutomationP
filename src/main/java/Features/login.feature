@@ -10,7 +10,7 @@ When The user enters the invalid login credentials
 And The user clicks on login button 
 Then The user is presented with validation message
 
-@SmokeTest	 
+@SmokeTest	  
 Scenario: Login test with valid details
 
 Given User is on automation practice website

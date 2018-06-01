@@ -28,8 +28,7 @@ public void user_is_on_automation_practice_website()  {
 	driver = new ChromeDriver();
 	driver.get("http://automationpractice.com");
 	driver.manage().deleteAllCookies();
-	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
-	
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/	
 }
 
 @When("^The user enters the invalid login credentials$")

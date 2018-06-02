@@ -71,4 +71,3 @@ Given User is on automation practice website
 When The user enters the invalid login credentials
 And The user clicks on login button 
 Then The user is presented with validation message
-

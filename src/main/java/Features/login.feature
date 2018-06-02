@@ -27,7 +27,7 @@ When The user enters the valid "mymail@aol.com" and "hello123"
 And The user clicks on login button 
 Then The user is presented with landing page
 
-#Using Examples keyword username & password - Used preferrably for parameterization
+#Using Examples keyword username & password - Used preferrably for parameterization.
  @End2End
  Scenario Outline: Login test with valid details using examples
 

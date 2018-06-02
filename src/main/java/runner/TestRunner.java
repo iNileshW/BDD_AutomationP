@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
 	,monochrome = true		
 	/*Strict - True means it will fail execution if there are any undefined/pending steps. Will show 
 	 * pending exception if step missing. Checks if any step definition is not defined in step def file*/
-	, strict = false		
+	, strict = false	
 			)
 	public class TestRunner {
 		

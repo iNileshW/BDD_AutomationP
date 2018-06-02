@@ -18,7 +18,7 @@ import junit.framework.Assert;
 
 public class LoginSteps {
 
-	WebDriver driver;
+WebDriver driver;
 
 @Given("^User is on automation practice website$")
 public void user_is_on_automation_practice_website()  {
